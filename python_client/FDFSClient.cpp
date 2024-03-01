@@ -1,6 +1,7 @@
 #include "FDFSClient.h"
 
 #include <sys/stat.h>   // fstat()
+#include <inttypes.h>
 
 #include "fastcommon/json_parser.h"
 #include "fastcommon/logger.h"
